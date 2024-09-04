@@ -1,0 +1,67 @@
+
+.homeCard{
+
+    width: 80%;
+    height: 95%;
+    container-type: inline-size;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background: #f0f0f0;
+    position: relative;
+    gap: 1rem;
+    justify-content: center;
+    bottom: -35%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgb(163, 184, 194);
+
+}
+
+.inputContainer{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.locationDiv, .priceDiv, .datePickerDiv{
+
+    width: 100%;
+    
+    label{
+        display: block;
+        color: #fff;
+        font-weight: 500;
+        font-size: 13px;
+        padding-top: 1rem;
+
+    }
+
+    input{
+        width: 100%;
+        background: #fff;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        font-size: 13px;
+        font-weight: 500;
+
+        & placeholder{
+            font-size: 13px;
+            opacity: .5;
+            font-weight: 400;
+        }
+        &:focus{
+            opacity: none;
+        }
+
+    }
+}
+
+.butn{
+    width: 100%;
+    padding: .6rem, 1.5rem;
+    color: #f4f4f4;
+    background-color: #fff;
+    font-weight: 600;
+}

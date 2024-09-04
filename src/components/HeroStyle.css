@@ -1,0 +1,143 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.hero-mid{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.hero-mid h1{
+    padding-top: 4rem !important;
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: rgba(0, 0, 0, 0.388);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text p{
+    font-size: 1.3rem;
+    
+    color: #fff;
+    padding: 0.5rem 0 2rem o;
+    
+}
+
+.hero-text .show {
+    text-decoration: none;
+    background: #f67104;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.hero-text .hide{
+    display: none;
+}
+
+
+.homeCard{
+
+    width: 60%;
+    height: 50%;
+    border-radius: 1rem;
+    padding: 2rem;
+    /* background: #ebe5dd; */
+    position:absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: -35%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgb(163, 184, 194);
+
+}
+
+.locationDiv, .distDiv, .priceDiv{
+
+    width: 100%;
+    
+    label{
+        display: block;
+        color: var(--whiteColor);
+        font-weight: 500;
+        font-size: 13px;
+        padding-bottom: .4rem;
+
+    }
+
+    input{
+        width: 100%;
+        background: var(--inputColor) ;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        font-size: 13px;
+        font-weight: 500;
+
+        & placeholder{
+            font-size: 13px;
+            opacity: .5;
+            font-weight: 400;
+        }
+        &:focus{
+            opacity: none;
+        }
+
+    }
+}
+
+.btn{
+    width: 100%;
+    padding: .6rem, 1.5rem;
+    color: var(--whiteColor);
+    font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width: 55px) {
+    .hero-text h1 {
+        padding: 10px 20px;
+    }
+
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero-text .show{
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+    
+}

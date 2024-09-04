@@ -1,0 +1,164 @@
+.footer{
+    padding: 0rem 6rem;
+    background: #F1F4F1;
+    /* background-image: -moz-element(); */
+    /* display: flex; */
+    /* background-image: url("/src/images/wonders-01.png"); */
+    /* background-image: url("/images/traven12.jpg"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* padding: 20px; */
+    width: 100%;
+    height: 60%;
+    object-fit:cover;
+    background-size:auto;
+    
+    height: 400px;
+    color: #47311b;
+}
+
+/* .back-img{
+    background-image: url("src/images/traven12.jpg");
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+    opacity: 0.3;
+} */
+
+.left{
+    display:flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 40px;
+}
+
+.left img{
+    width: 50%;
+    height: 50%;
+}
+
+.left a{
+    text-decoration: none;
+    color: #47311b;
+    padding-right: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.left a:hover{
+    color: #1B615A;
+}
+
+.center{
+    padding-right: 2rem;
+    /* text-align: start; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: left;
+    margin: 60px 330px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.center h4, .right h4{
+    font-size: 25px;
+    color:rgb(42, 40, 40);
+}
+
+.center div{
+    display: flex;
+    flex-direction: column;
+}
+
+.center a{
+    text-decoration: none;
+    color: #47311b;
+    padding-right: 0.4rem;
+    font-size: 1.1rem;
+}
+
+
+
+.center a:hover{
+    color: #1B615A;
+}
+
+.center i{
+    color: #47311b;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.center i:hover{
+    color: #1B615A;
+}
+
+.right{
+    padding-right: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 390px;
+    display: contents;
+    /* float: right; */
+}
+
+.right li{
+    display: inline-block;
+}
+
+.right div h4 {
+    margin-top: 62px;
+}
+
+.right div{
+    display: flex;
+    flex-direction: column;
+}
+
+.right a{
+    text-decoration: none;
+    color: #47311b;
+    padding-right: 0.4rem;
+    font-size: 1.5rem;
+}
+
+.right a:hover{
+    color: #1B615A;
+}
+
+.right i{
+    color: #47311b;
+    font-size: 2.8rem;
+    margin-left: 1rem;
+}
+
+.right i:hover{
+    color: #1B615A;
+}
+
+@media screen and (max-width: 850px){
+
+    .footer{
+        padding: 4rem 2rem;
+    }
+
+    .footer i{
+        margin: 1rem 1rem 0 0;
+    }
+
+    .right div{
+        width: 50%;
+    }
+
+
+
+
+
+
+}

@@ -1,0 +1,194 @@
+
+.choose{
+
+    .secContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+        .title{
+            color:black;
+            line-height: 1.5rem;
+            padding-bottom: 2rem;
+            text-align: center;
+            font-size: 2rem;
+
+        }
+
+        .mainContent{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 190px;
+          justify-content: center;
+          /* display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: 20px; */
+              .singleItem{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: 300px;
+                
+                /* text-align:center; */
+              
+
+                 img{
+                    background-color: rgb(244, 236, 220);
+                    width: 120px;
+                    border-radius: 80px;
+                    padding: 1rem;
+                }
+
+                  h3{
+                    font-weight: 700;
+                    color:rgb(14, 16, 16);
+                    padding: .5rem;
+                  }
+
+                  p{
+                    font-size: 15px;
+                    font-weight: 550;
+                    padding-bottom: .5rem;
+                    color: black;
+                  }
+            }
+        }
+
+        .videoCard{
+          
+              margin-top: 6rem;
+              margin-bottom: 4rem;
+              margin-left: 3rem;
+              margin-right: 3rem;
+              background: linear-gradient(to top, rgba(0, 0, 0, 0.73),
+              rgba(0, 0, 0, 0.609)), url(../assets/bali4.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 600px;
+              /* width: 90%;*/
+
+              .cardContent{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-align: center;
+                  
+                  gap: 2rem;
+                  padding: 2rem 1rem;
+
+
+                  .cardText{
+                    h2{
+                      color:#fff;
+                      font-weight: 600;
+                      padding-bottom: 1rem;
+
+
+                    }
+
+                    p{
+                      color:#fff;
+                      opacity: .7;
+                      font-size: 12px;
+                      font-weight: 400;
+                      letter-spacing: 1px;
+                    }
+                  }
+
+              }
+
+              /* .cardVideo{
+                      border: 2px solid #fff;
+                      height: 400px;
+                      width: 60%;
+                      border-radius: 2px;
+                      overflow: hidden;
+
+                      video{
+                          height: 100%;
+                          width: 100%;
+                          object-fit:cover;
+                      }
+              } */
+
+
+
+    .testimonialsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    /* margin-top: 60px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+}
+
+.testimonials .title {
+    margin-bottom: 40px;
+    color:#050505;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+/* .testimonialSlider{
+  display: flex;
+  transition: transform 0.56 ease;
+  overflow: hidden;
+}
+
+
+.testimonialItem {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 36%;
+    margin-left: 12%;
+    /* text-align: center; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+} */
+
+/* .testimonialItem img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+} */
+
+/* .testimonialItem p {
+    font-style: italic;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.testimonialItem h4 {
+    font-size: 1.2em;
+    color: #333;
+}  */
+
+/* Swiper pagination styles */
+/* .swiper-pagination-bullet {
+    background: #333;
+}
+
+.swiper-pagination-bullet-active {
+    background: #007bff;
+} */
+
+
+        }
+    }
+}
